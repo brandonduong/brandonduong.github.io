@@ -117,6 +117,14 @@ h1.contact{
     background-color: navajowhite;
 }
 
+h5 {
+    font-size: 2vw !important;
+}
+
+.carousel-caption-info {
+    font-size: 1vw !important;
+}
+
 .language-item {
     position: relative;
     top: -2px;
