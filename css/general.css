@@ -32,3 +32,92 @@ h1.contact{
 .border-left {
     border-left: 1px solid #ddd;
 }
+
+.python-circle {
+    background: #3572A5;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.js-circle {
+    background: #f1e05a;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.sql-circle {
+    background: #dad8d8;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.java-circle {
+    background: #b07219;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.css-circle {
+    background: #563d7c;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.html-circle {
+    background: #e34c26;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-item {
+    height:525px;
+    background: antiquewhite;
+}
+.carousel-image {
+    height:400px;
+    width:100%;/*maintain aspect ratio*/
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 77%;
+}
+
+.card-body {
+    background-color: navajowhite;
+}
+
+.language-item {
+    position: relative;
+    top: -2px;
+}
