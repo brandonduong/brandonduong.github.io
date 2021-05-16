@@ -118,11 +118,11 @@ h1.contact{
 }
 
 h5 {
-    font-size: 2vw !important;
+    font-size: calc(0.7em + 1vw) !important;
 }
 
 .carousel-caption-info {
-    font-size: 1vw !important;
+    font-size: calc(0.7em + 0.4vw) !important;
 }
 
 .language-item {
