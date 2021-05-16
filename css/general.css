@@ -131,4 +131,15 @@ h5 {
 }
 
 .learn-more {
+    width: 90% !important;
+    position: relative;
+    left: 5%;
+}
+
+.accordion-button {
+    background-color: whitesmoke !important;
+}
+
+.accordion-collapse {
+    background-color: whitesmoke;
 }
