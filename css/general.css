@@ -134,7 +134,7 @@ h1.contact{
 }
 
 h5 {
-    font-size: calc(0.8em + 0.6vw) !important;
+    font-size: calc(0.8em + 0.5vw) !important;
 }
 
 .carousel-caption-info {
@@ -150,6 +150,10 @@ h5 {
     width: 90% !important;
     position: relative;
     left: 5%;
+}
+
+.page-break {
+    margin-bottom: 20px;
 }
 
 .accordion-button {
