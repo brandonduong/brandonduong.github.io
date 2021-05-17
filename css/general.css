@@ -110,19 +110,24 @@ h1.contact{
 .carousel-caption {
     position: relative;
     left: 0;
-    top: 400px;
+    top: 385px;
 }
 
 .card-body {
     background-color: navajowhite;
 }
 
+.carousel-indicators {
+    position: relative;
+    top: 500px;
+}
+
 h5 {
-    font-size: calc(0.7em + 1vw) !important;
+    font-size: calc(0.8em + 0.6vw) !important;
 }
 
 .carousel-caption-info {
-    font-size: calc(0.7em + 0.4vw) !important;
+    font-size: calc(0.6em + 0.4vw) !important;
 }
 
 .language-item {
