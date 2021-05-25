@@ -1,11 +1,3 @@
-.header{
-    padding-top: 5.5rem;
-    background-color: #8e9aaf;
-}
-.info-container {
-    background-color: #cbc0d3;
-}
-
 h1.title{
     font-size: 6rem;
     margin-left: -0.5rem;
@@ -116,7 +108,7 @@ h1.contact{
 
 .carousel-item {
     height:525px;
-    background: antiquewhite;
+    background: #cbc0d3;
 }
 .carousel-image {
     height:400px;
@@ -128,10 +120,6 @@ h1.contact{
     top: 385px;
 }
 
-.card-body {
-    background-color: navajowhite;
-}
-
 .carousel-indicators {
     position: relative;
     top: 500px;
@@ -139,6 +127,13 @@ h1.contact{
 
 h5 {
     font-size: calc(0.8em + 0.5vw) !important;
+    color: black;
+
+    /* Deals with centering overflowing text */
+    white-space: nowrap;
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
 }
 
 .carousel-caption-info {
@@ -160,10 +155,29 @@ h5 {
     padding: 10px;
 }
 
-.accordion-button {
-    background-color: whitesmoke !important;
+.accordion-button, .accordion-collapse {
+    background-color: #ffe6fd !important;
 }
 
-.accordion-collapse {
-    background-color: whitesmoke;
+.page-end {
+    padding: 2.8vw;
+}
+
+.header {
+    padding-top: 2rem;
+    background-color: #8e9aaf;
+    color: black;
+}
+
+.resume-button {
+    color: #8e9aaf !important;
+    background-color: black !important;
+}
+
+.info-container {
+    background-color: #cbc0d3;
+}
+
+.card-body {
+    background-color: #8e9aaf;
 }
